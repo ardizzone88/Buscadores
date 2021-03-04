@@ -1,0 +1,26 @@
+body{
+    background: #ccc;
+}
+h1{
+    font-style: italic;
+    color:darkgreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+.container{
+    display:flex;
+    justify-content:center ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#formulario{
+    width: min-content;
+    border-radius: 40px ;
+}
+
+#boton{
+    width: min-content;
+}
